@@ -1,61 +1,19 @@
-# LOS_MODEL_PRODUCTION
+𝑳𝑶𝑺_𝑴𝑶𝑫𝑬𝑳_𝑷𝑹𝑶𝑫𝑼𝑪𝑻𝑰𝑶𝑵
 ==============================
-
 Project Description - Project does patients length of stay (LOS) predction. Predicting the length of stay (LOS) allows hospitals to 
 optimize their treatment plans to reduce LOS, to reduce infection rates among patients, staff, and visitors.
 
-## Features which can be added in future revisions
-1. Logging
-2. Organize the import commands
-
-## Project Organization
-------------
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+𝗠𝗮𝗷𝗼𝗿 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀 𝘄𝗵𝗶𝗰𝗵 𝗰𝗮𝗻 𝗯𝗲 𝗮𝗱𝗱𝗲𝗱 𝗶𝗻 𝗳𝘂𝘁𝘂𝗿𝗲 𝗿𝗲𝘃𝗶𝘀𝗶𝗼𝗻𝘀
+● ~Modularize the code from jupyter notebook to .py files~
+● Mlflow Dashboard
+● Add the Unit test feature
+● Add lint tests
+● Logging
+● Store the mlflow artifacts to s3
+● Connect mlflow and sagemaker
 
 
---------
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+𝗠𝗶𝗻𝗼𝗿 𝗶𝘁𝗲𝗺𝘀 𝘄𝗵𝗶𝗰𝗵 𝗻𝗲𝗲𝗱 𝘁𝗼 𝗯𝗲 𝗰𝗼𝘃𝗲𝗿𝗲𝗱
+● Organize the import commands
+● Project Directory should have variables assigned 
+● Add configuration settting to config yaml

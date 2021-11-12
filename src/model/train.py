@@ -6,6 +6,7 @@ from sklearn.metrics import accuracy_score
 from processing.data_manager import load_test_dataset, load_train_dataset, test_train_split
 from processing.features import featureEng
 from processing.model import naive_bayes_model
+from processing.mlflow import mlflow_exp_create
 import time
 from datetime import datetime
 
@@ -15,13 +16,8 @@ import mlflow.sklearn
 
 def run_training() -> None:
     """Train the model."""
-    mlflow.set_tracking_uri("./mlruns")
-    experiment_id = datetime.now().strftime('%Y%m-%d%H-%M%S-')
-    experiment_name = "HealtCareAnalytics"
-    experiment_id = "experiment_"+ experiment_id+ experiment_name
-    mlflow.create_experiment(experiment_id)
+    mlflow_exp_create()
 
-    mlflow.set_experiment(experiment_id)
     #ML Flow Tracking starts
     mlflow.end_run()
     mlflow.start_run()
