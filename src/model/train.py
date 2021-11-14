@@ -7,6 +7,7 @@ from processing.data_manager import load_test_dataset, load_train_dataset, test_
 from processing.features import featureEng
 from processing.model import naive_bayes_model
 from processing.mlflow import mlflow_exp_create
+from config.config import save_mlflow_expID, load_mlflow_expID
 import time
 from datetime import datetime
 
@@ -16,7 +17,12 @@ import mlflow.sklearn
 
 def run_training() -> None:
     """Train the model."""
-    mlflow_exp_create()
+    expID = load_mlflow_expID()
+    if expID == "temp":
+        expID = mlflow_exp_create()
+        save_mlflow_expID(expID)
+
+    mlflow.set_experiment(expID)
 
     #ML Flow Tracking starts
     mlflow.end_run()

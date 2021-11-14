@@ -11,4 +11,3 @@ def mlflow_exp_create():
     mlflow.create_experiment(experiment_id)
 
     return experiment_id
-
