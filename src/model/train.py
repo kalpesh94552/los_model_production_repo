@@ -8,8 +8,6 @@ from processing.features import featureEng
 from processing.model import naive_bayes_model
 from processing.mlflow import mlflow_exp_create
 from config.config import save_mlflow_expID, load_mlflow_expID
-import time
-from datetime import datetime
 
 # Mlflow imports
 import mlflow
