@@ -17,3 +17,4 @@ optimize their treatment plans to reduce LOS, to reduce infection rates among pa
 ● Organize the import commands
 ● Project Directory should have variables assigned 
 ● Add configuration settting to config yaml
+● Resolve the MissingConfigExpection
