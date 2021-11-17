@@ -5,13 +5,16 @@ optimize their treatment plans to reduce LOS, to reduce infection rates among pa
 
 𝗠𝗮𝗷𝗼𝗿 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀 𝘄𝗵𝗶𝗰𝗵 𝗰𝗮𝗻 𝗯𝗲 𝗮𝗱𝗱𝗲𝗱 𝗶𝗻 𝗳𝘂𝘁𝘂𝗿𝗲 𝗿𝗲𝘃𝗶𝘀𝗶𝗼𝗻𝘀
 ● ~Modularize the code from jupyter notebook to .py files~
-● Mlflow Dashboard
-● Add the Unit test feature
-● Add lint tests
+● ~Mlflow Dashboard~
+● ~Add the Unit test feature~
+● ~Add lint tests~
+● ~Setup tox for all the tests~
 ● Logging
 ● Store the mlflow artifacts to s3
+● Deploy the model on sagemaker endpoint
 ● Connect mlflow and sagemaker
-
+● Use Model Monitor to set deviation alerts 
+● Add mlflow authentication with ALB and Cognito
 
 𝗠𝗶𝗻𝗼𝗿 𝗶𝘁𝗲𝗺𝘀 𝘄𝗵𝗶𝗰𝗵 𝗻𝗲𝗲𝗱 𝘁𝗼 𝗯𝗲 𝗰𝗼𝘃𝗲𝗿𝗲𝗱
 ● Organize the import commands

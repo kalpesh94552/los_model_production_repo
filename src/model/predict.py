@@ -1,21 +1,24 @@
-import numpy as np
-import pandas as pd 
+import pandas as pd
 import pathlib
 import joblib
 from sklearn.metrics import accuracy_score
 
+
 def make_prediction():
-    model_save_path = pathlib.WindowsPath(__file__).parent.joinpath('trained_pkl/').joinpath('naive_bayes_model')
+    model_save_path = pathlib.WindowsPath(
+        __file__).parent.joinpath('trained_pkl/naive_bayes_model')
     model_nb = joblib.load(model_save_path)
 
+    print("Trained model: " + str(model_nb.get_params()))
+
     data_save_path = pathlib.WindowsPath(__file__).parents[1].joinpath('data/')
-    X_test= pd.read_csv(data_save_path.joinpath('X_test.csv'))
-    X_test.drop(X_test.columns[0], axis=1,inplace=True)
-    y_test= pd.read_csv(data_save_path.joinpath('y_test.csv'))
-    y_test.drop(y_test.columns[0], axis=1,inplace=True)
+    X_test = pd.read_csv(data_save_path.joinpath('X_test.csv'))
+    X_test.drop(X_test.columns[0], axis=1, inplace=True)
+    y_test = pd.read_csv(data_save_path.joinpath('y_test.csv'))
+    y_test.drop(y_test.columns[0], axis=1, inplace=True)
 
     prediction_nb = model_nb.predict(X_test)
-    acc_score_nb = accuracy_score(prediction_nb,y_test)
+    acc_score_nb = accuracy_score(prediction_nb, y_test)
     print("Prediction")
     print("Acurracy:", acc_score_nb*100)
 
