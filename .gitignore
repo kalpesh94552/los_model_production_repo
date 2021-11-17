@@ -8,7 +8,6 @@ __pycache__/
 # Distribution / packaging
 .Python
 .pytest_cache/
-.tox/
 env/
 build/
 develop-eggs/
@@ -67,9 +66,6 @@ target/
 
 # Pycharm
 .idea
-
-# VS Code
-.vscode/
 
 # Spyder
 .spyproject/
