@@ -15,10 +15,10 @@ import mlflow.sklearn
 
 def run_training() -> None:
     """Train the model."""
-    expID = load_mlflow_expID()
-    if expID == "temp":
-        expID = mlflow_exp_create()
-        save_mlflow_expID(expID)
+    #expID = load_mlflow_expID()
+    #if expID == "temp":
+    expID = mlflow_exp_create()
+        #save_mlflow_expID(expID)
 
     mlflow.set_experiment(expID)
 
