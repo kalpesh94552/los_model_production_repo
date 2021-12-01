@@ -9,12 +9,12 @@ optimize their treatment plans to reduce LOS, to reduce infection rates among pa
 ● ~Add the Unit test feature~
 ● ~Add lint tests~
 ● ~Setup tox for all the tests~
-● Logging
+● Add mlflow authentication with ALB and Cognito
 ● Store the mlflow artifacts to s3
 ● Deploy the model on sagemaker endpoint
 ● Connect mlflow and sagemaker
 ● Use Model Monitor to set deviation alerts 
-● Add mlflow authentication with ALB and Cognito
+● Logging
 
 𝗠𝗶𝗻𝗼𝗿 𝗶𝘁𝗲𝗺𝘀 𝘄𝗵𝗶𝗰𝗵 𝗻𝗲𝗲𝗱 𝘁𝗼 𝗯𝗲 𝗰𝗼𝘃𝗲𝗿𝗲𝗱
 ● Organize the import commands

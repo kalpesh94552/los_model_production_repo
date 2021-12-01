@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<style>
+
+body {
+    color: #000000;
+    background-color: #ffffff;
+}
+</style>
+</head>
+<html>
+<body>
+    <code>
+        <pre style="font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="color: #800000; text-decoration-color: #800000; font-weight: bold">Recording started</span>
+<span style="color: #800000; text-decoration-color: #800000; font-weight: bold">Reporting mode enabled</span>
+<span style="font-weight: bold">{</span>
+    <span style="color: #008000; text-decoration-color: #008000">&#x27;reportversion&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;1&#x27;</span>,
+    <span style="color: #008000; text-decoration-color: #008000">&#x27;toxversion&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;3.24.4&#x27;</span>,
+    <span style="color: #008000; text-decoration-color: #008000">&#x27;platform&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;win32&#x27;</span>,
+    <span style="color: #008000; text-decoration-color: #008000">&#x27;host&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;IMCLBCP32-MSL2.mumbai1.corp.citiustech.com&#x27;</span>,
+    <span style="color: #008000; text-decoration-color: #008000">&#x27;commands&#x27;</span>: <span style="font-weight: bold">[]</span>,
+    <span style="color: #008000; text-decoration-color: #008000">&#x27;testenvs&#x27;</span>: <span style="font-weight: bold">{</span>
+        <span style="color: #008000; text-decoration-color: #008000">&#x27;unit_tests&#x27;</span>: <span style="font-weight: bold">{</span>
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;setup&#x27;</span>: <span style="font-weight: bold">[</span>
+                <span style="font-weight: bold">{</span>
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;command&#x27;</span>: <span style="font-weight: bold">[</span>
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;C:\\Users\\KalpeshM2\\OneDrive - </span>
+<span style="color: #008000; text-decoration-color: #008000">CitiusTech\\Documents\\cookiecutter-data-science\\.tox\\unit_tests\\Scripts\\python.EXE&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;-m&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;pip&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;freeze&#x27;</span>
+                    <span style="font-weight: bold">]</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;output&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;alembic==1.4.1\nastroid==2.8.6\natomicwrites==1.4.0\nattrs==21.2.0\nbackports.entry-points-selectable==1.1.1\ncert</span>
+<span style="color: #008000; text-decoration-color: #008000">ifi==2021.10.8\ncharset-normalizer==2.0.8\nclick==8.0.3\ncloudpickle==2.0.0\ncolorama==0.4.4\ncycler==0.11.0\ndatabricks-cli==0.16.2\ndataclasses</span>
+<span style="color: #008000; text-decoration-color: #008000">==0.8\ndistlib==0.3.3\ndocker==5.0.3\nentrypoints==0.3\nfilelock==3.4.0\nflake8==4.0.1\nflake8-junit-report==2.1.0\nFlask==2.0.2\ngitdb==4.0.9\nG</span>
+<span style="color: #008000; text-decoration-color: #008000">itPython==3.1.18\ngreenlet==1.1.2\nidna==3.3\nimportlib-metadata==4.2.0\nimportlib-resources==5.4.0\niniconfig==1.1.1\nisort==5.10.1\nitsdangerou</span>
+<span style="color: #008000; text-decoration-color: #008000">s==2.0.1\nJinja2==3.0.3\njoblib==1.1.0\nkeras==2.6.0\nkiwisolver==1.3.1\nlazy-object-proxy==1.6.0\nMako==1.1.6\nMarkupSafe==2.0.1\nmatplotlib==3.</span>
+<span style="color: #008000; text-decoration-color: #008000">3.4\nmccabe==0.6.1\nmlflow==1.21.0\nmypy==0.910\nmypy-extensions==0.4.3\nnumpy==1.19.5\npackaging==21.3\npandas==1.1.5\npathlib==1.0.1\nPillow==8</span>
+<span style="color: #008000; text-decoration-color: #008000">.4.0\nplatformdirs==2.4.0\npluggy==1.0.0\nprometheus-client==0.12.0\nprometheus-flask-exporter==0.18.6\nprotobuf==3.19.1\npy==1.11.0\npycodestyle</span>
+<span style="color: #008000; text-decoration-color: #008000">==2.8.0\npydantic==1.8.2\npyflakes==2.4.0\npylint==2.11.1\npyparsing==3.0.6\npytest==6.2.5\npython-dateutil==2.8.2\npython-editor==1.0.4\npytz==2</span>
+<span style="color: #008000; text-decoration-color: #008000">021.3\npywin32==227\nPyYAML==6.0\nquerystring-parser==1.2.4\nrequests==2.26.0\nscikit-learn==0.21.2\nscipy==1.3.3\nsix==1.16.0\nsmmap==5.0.0\nSQL</span>
+<span style="color: #008000; text-decoration-color: #008000">Alchemy==1.4.27\nsqlparse==0.4.2\nstrictyaml==1.5.0\ntabulate==0.8.9\ntoml==0.10.2\ntox==3.24.4\ntyped-ast==1.4.3\ntyping_extensions==4.0.0\nurll</span>
+<span style="color: #008000; text-decoration-color: #008000">ib3==1.26.7\nvirtualenv==20.10.0\nwaitress==2.0.0\nwebsocket-client==1.2.1\nWerkzeug==2.0.2\nwrapt==1.13.3\nzipp==3.6.0\n&#x27;</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;retcode&#x27;</span>: <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">0</span>
+                <span style="font-weight: bold">}</span>
+            <span style="font-weight: bold">]</span>,
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;python&#x27;</span>: <span style="font-weight: bold">{</span>
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;executable&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;C:\\Users\\KalpeshM2\\OneDrive - </span>
+<span style="color: #008000; text-decoration-color: #008000">CitiusTech\\Documents\\cookiecutter-data-science\\.tox\\unit_tests\\Scripts\\python.EXE&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;implementation&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;CPython&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;version_info&#x27;</span>: <span style="font-weight: bold">[</span><span style="color: #008080; text-decoration-color: #008080; font-weight: bold">3</span>, <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">6</span>, <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">9</span>, <span style="color: #008000; text-decoration-color: #008000">&#x27;final&#x27;</span>, <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">0</span><span style="font-weight: bold">]</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;version&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;3.6.9 |Anaconda, Inc.| (default, Jul 30 2019, 14:00:49) [MSC v.1915 64 bit (AMD64)]&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;is_64&#x27;</span>: <span style="color: #00ff00; text-decoration-color: #00ff00; font-style: italic">True</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;sysplatform&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;win32&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;os_sep&#x27;</span>: &#x27;\\&#x27;,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;extra_version_info&#x27;</span>: <span style="color: #800080; text-decoration-color: #800080; font-style: italic">None</span>
+            <span style="font-weight: bold">}</span>,
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;installed_packages&#x27;</span>: <span style="font-weight: bold">[</span>
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;alembic==1.4.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;astroid==2.8.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;atomicwrites==1.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;attrs==21.2.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;backports.entry-points-selectable==1.1.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;certifi==2021.10.8&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;charset-normalizer==2.0.8&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;click==8.0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;cloudpickle==2.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;colorama==0.4.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;cycler==0.11.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;databricks-cli==0.16.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;dataclasses==0.8&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;distlib==0.3.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;docker==5.0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;entrypoints==0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;filelock==3.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;flake8==4.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;flake8-junit-report==2.1.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Flask==2.0.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;gitdb==4.0.9&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;GitPython==3.1.18&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;greenlet==1.1.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;idna==3.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;importlib-metadata==4.2.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;importlib-resources==5.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;iniconfig==1.1.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;isort==5.10.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;itsdangerous==2.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Jinja2==3.0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;joblib==1.1.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;keras==2.6.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;kiwisolver==1.3.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;lazy-object-proxy==1.6.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Mako==1.1.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;MarkupSafe==2.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;matplotlib==3.3.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mccabe==0.6.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mlflow==1.21.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mypy==0.910&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mypy-extensions==0.4.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;numpy==1.19.5&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;packaging==21.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pandas==1.1.5&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pathlib==1.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Pillow==8.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;platformdirs==2.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pluggy==1.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;prometheus-client==0.12.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;prometheus-flask-exporter==0.18.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;protobuf==3.19.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;py==1.11.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pycodestyle==2.8.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pydantic==1.8.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pyflakes==2.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pylint==2.11.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pyparsing==3.0.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pytest==6.2.5&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;python-dateutil==2.8.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;python-editor==1.0.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pytz==2021.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pywin32==227&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;PyYAML==6.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;querystring-parser==1.2.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;requests==2.26.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;scikit-learn==0.21.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;scipy==1.3.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;six==1.16.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;smmap==5.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;SQLAlchemy==1.4.27&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;sqlparse==0.4.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;strictyaml==1.5.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;tabulate==0.8.9&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;toml==0.10.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;tox==3.24.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;typed-ast==1.4.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;typing_extensions==4.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;urllib3==1.26.7&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;virtualenv==20.10.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;waitress==2.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;websocket-client==1.2.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Werkzeug==2.0.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;wrapt==1.13.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;zipp==3.6.0&#x27;</span>
+            <span style="font-weight: bold">]</span>,
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;test&#x27;</span>: <span style="font-weight: bold">[</span>
+                <span style="font-weight: bold">{</span>
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;command&#x27;</span>: <span style="font-weight: bold">[</span>
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;C:\\Users\\KalpeshM2\\OneDrive - </span>
+<span style="color: #008000; text-decoration-color: #008000">CitiusTech\\Documents\\cookiecutter-data-science\\.tox\\unit_tests\\Scripts\\pytest.EXE&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;-s&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;-vv&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;tests&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;--junit-xml=tests/reports/junit-unit_tests.xml&#x27;</span>
+                    <span style="font-weight: bold">]</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;output&#x27;</span>: <span style="color: #800080; text-decoration-color: #800080; font-style: italic">None</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;retcode&#x27;</span>: <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">0</span>
+                <span style="font-weight: bold">}</span>
+            <span style="font-weight: bold">]</span>
+        <span style="font-weight: bold">}</span>,
+        <span style="color: #008000; text-decoration-color: #008000">&#x27;typechecks&#x27;</span>: <span style="font-weight: bold">{}</span>,
+        <span style="color: #008000; text-decoration-color: #008000">&#x27;stylechecks&#x27;</span>: <span style="font-weight: bold">{}</span>
+    <span style="font-weight: bold">}</span>
+<span style="font-weight: bold">}</span>
+<span style="font-weight: bold">{</span>
+    <span style="color: #008000; text-decoration-color: #008000">&#x27;reportversion&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;1&#x27;</span>,
+    <span style="color: #008000; text-decoration-color: #008000">&#x27;toxversion&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;3.24.4&#x27;</span>,
+    <span style="color: #008000; text-decoration-color: #008000">&#x27;platform&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;win32&#x27;</span>,
+    <span style="color: #008000; text-decoration-color: #008000">&#x27;host&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;IMCLBCP32-MSL2.mumbai1.corp.citiustech.com&#x27;</span>,
+    <span style="color: #008000; text-decoration-color: #008000">&#x27;commands&#x27;</span>: <span style="font-weight: bold">[]</span>,
+    <span style="color: #008000; text-decoration-color: #008000">&#x27;testenvs&#x27;</span>: <span style="font-weight: bold">{</span>
+        <span style="color: #008000; text-decoration-color: #008000">&#x27;unit_tests&#x27;</span>: <span style="font-weight: bold">{</span>
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;setup&#x27;</span>: <span style="font-weight: bold">[</span>
+                <span style="font-weight: bold">{</span>
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;command&#x27;</span>: <span style="font-weight: bold">[</span>
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;C:\\Users\\KalpeshM2\\OneDrive - </span>
+<span style="color: #008000; text-decoration-color: #008000">CitiusTech\\Documents\\cookiecutter-data-science\\.tox\\unit_tests\\Scripts\\python.EXE&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;-m&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;pip&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;freeze&#x27;</span>
+                    <span style="font-weight: bold">]</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;output&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;alembic==1.4.1\nastroid==2.8.6\natomicwrites==1.4.0\nattrs==21.2.0\nbackports.entry-points-selectable==1.1.1\ncert</span>
+<span style="color: #008000; text-decoration-color: #008000">ifi==2021.10.8\ncharset-normalizer==2.0.8\nclick==8.0.3\ncloudpickle==2.0.0\ncolorama==0.4.4\ncycler==0.11.0\ndatabricks-cli==0.16.2\ndataclasses</span>
+<span style="color: #008000; text-decoration-color: #008000">==0.8\ndistlib==0.3.3\ndocker==5.0.3\nentrypoints==0.3\nfilelock==3.4.0\nflake8==4.0.1\nflake8-junit-report==2.1.0\nFlask==2.0.2\ngitdb==4.0.9\nG</span>
+<span style="color: #008000; text-decoration-color: #008000">itPython==3.1.18\ngreenlet==1.1.2\nidna==3.3\nimportlib-metadata==4.2.0\nimportlib-resources==5.4.0\niniconfig==1.1.1\nisort==5.10.1\nitsdangerou</span>
+<span style="color: #008000; text-decoration-color: #008000">s==2.0.1\nJinja2==3.0.3\njoblib==1.1.0\nkeras==2.6.0\nkiwisolver==1.3.1\nlazy-object-proxy==1.6.0\nMako==1.1.6\nMarkupSafe==2.0.1\nmatplotlib==3.</span>
+<span style="color: #008000; text-decoration-color: #008000">3.4\nmccabe==0.6.1\nmlflow==1.21.0\nmypy==0.910\nmypy-extensions==0.4.3\nnumpy==1.19.5\npackaging==21.3\npandas==1.1.5\npathlib==1.0.1\nPillow==8</span>
+<span style="color: #008000; text-decoration-color: #008000">.4.0\nplatformdirs==2.4.0\npluggy==1.0.0\nprometheus-client==0.12.0\nprometheus-flask-exporter==0.18.6\nprotobuf==3.19.1\npy==1.11.0\npycodestyle</span>
+<span style="color: #008000; text-decoration-color: #008000">==2.8.0\npydantic==1.8.2\npyflakes==2.4.0\npylint==2.11.1\npyparsing==3.0.6\npytest==6.2.5\npython-dateutil==2.8.2\npython-editor==1.0.4\npytz==2</span>
+<span style="color: #008000; text-decoration-color: #008000">021.3\npywin32==227\nPyYAML==6.0\nquerystring-parser==1.2.4\nrequests==2.26.0\nscikit-learn==0.21.2\nscipy==1.3.3\nsix==1.16.0\nsmmap==5.0.0\nSQL</span>
+<span style="color: #008000; text-decoration-color: #008000">Alchemy==1.4.27\nsqlparse==0.4.2\nstrictyaml==1.5.0\ntabulate==0.8.9\ntoml==0.10.2\ntox==3.24.4\ntyped-ast==1.4.3\ntyping_extensions==4.0.0\nurll</span>
+<span style="color: #008000; text-decoration-color: #008000">ib3==1.26.7\nvirtualenv==20.10.0\nwaitress==2.0.0\nwebsocket-client==1.2.1\nWerkzeug==2.0.2\nwrapt==1.13.3\nzipp==3.6.0\n&#x27;</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;retcode&#x27;</span>: <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">0</span>
+                <span style="font-weight: bold">}</span>
+            <span style="font-weight: bold">]</span>,
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;python&#x27;</span>: <span style="font-weight: bold">{</span>
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;executable&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;C:\\Users\\KalpeshM2\\OneDrive - </span>
+<span style="color: #008000; text-decoration-color: #008000">CitiusTech\\Documents\\cookiecutter-data-science\\.tox\\unit_tests\\Scripts\\python.EXE&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;implementation&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;CPython&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;version_info&#x27;</span>: <span style="font-weight: bold">[</span><span style="color: #008080; text-decoration-color: #008080; font-weight: bold">3</span>, <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">6</span>, <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">9</span>, <span style="color: #008000; text-decoration-color: #008000">&#x27;final&#x27;</span>, <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">0</span><span style="font-weight: bold">]</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;version&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;3.6.9 |Anaconda, Inc.| (default, Jul 30 2019, 14:00:49) [MSC v.1915 64 bit (AMD64)]&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;is_64&#x27;</span>: <span style="color: #00ff00; text-decoration-color: #00ff00; font-style: italic">True</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;sysplatform&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;win32&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;os_sep&#x27;</span>: &#x27;\\&#x27;,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;extra_version_info&#x27;</span>: <span style="color: #800080; text-decoration-color: #800080; font-style: italic">None</span>
+            <span style="font-weight: bold">}</span>,
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;installed_packages&#x27;</span>: <span style="font-weight: bold">[</span>
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;alembic==1.4.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;astroid==2.8.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;atomicwrites==1.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;attrs==21.2.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;backports.entry-points-selectable==1.1.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;certifi==2021.10.8&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;charset-normalizer==2.0.8&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;click==8.0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;cloudpickle==2.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;colorama==0.4.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;cycler==0.11.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;databricks-cli==0.16.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;dataclasses==0.8&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;distlib==0.3.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;docker==5.0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;entrypoints==0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;filelock==3.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;flake8==4.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;flake8-junit-report==2.1.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Flask==2.0.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;gitdb==4.0.9&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;GitPython==3.1.18&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;greenlet==1.1.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;idna==3.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;importlib-metadata==4.2.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;importlib-resources==5.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;iniconfig==1.1.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;isort==5.10.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;itsdangerous==2.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Jinja2==3.0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;joblib==1.1.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;keras==2.6.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;kiwisolver==1.3.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;lazy-object-proxy==1.6.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Mako==1.1.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;MarkupSafe==2.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;matplotlib==3.3.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mccabe==0.6.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mlflow==1.21.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mypy==0.910&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mypy-extensions==0.4.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;numpy==1.19.5&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;packaging==21.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pandas==1.1.5&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pathlib==1.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Pillow==8.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;platformdirs==2.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pluggy==1.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;prometheus-client==0.12.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;prometheus-flask-exporter==0.18.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;protobuf==3.19.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;py==1.11.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pycodestyle==2.8.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pydantic==1.8.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pyflakes==2.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pylint==2.11.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pyparsing==3.0.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pytest==6.2.5&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;python-dateutil==2.8.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;python-editor==1.0.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pytz==2021.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pywin32==227&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;PyYAML==6.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;querystring-parser==1.2.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;requests==2.26.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;scikit-learn==0.21.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;scipy==1.3.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;six==1.16.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;smmap==5.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;SQLAlchemy==1.4.27&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;sqlparse==0.4.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;strictyaml==1.5.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;tabulate==0.8.9&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;toml==0.10.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;tox==3.24.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;typed-ast==1.4.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;typing_extensions==4.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;urllib3==1.26.7&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;virtualenv==20.10.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;waitress==2.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;websocket-client==1.2.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Werkzeug==2.0.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;wrapt==1.13.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;zipp==3.6.0&#x27;</span>
+            <span style="font-weight: bold">]</span>,
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;test&#x27;</span>: <span style="font-weight: bold">[</span>
+                <span style="font-weight: bold">{</span>
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;command&#x27;</span>: <span style="font-weight: bold">[</span>
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;C:\\Users\\KalpeshM2\\OneDrive - </span>
+<span style="color: #008000; text-decoration-color: #008000">CitiusTech\\Documents\\cookiecutter-data-science\\.tox\\unit_tests\\Scripts\\pytest.EXE&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;-s&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;-vv&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;tests&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;--junit-xml=tests/reports/junit-unit_tests.xml&#x27;</span>
+                    <span style="font-weight: bold">]</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;output&#x27;</span>: <span style="color: #800080; text-decoration-color: #800080; font-style: italic">None</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;retcode&#x27;</span>: <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">0</span>
+                <span style="font-weight: bold">}</span>
+            <span style="font-weight: bold">]</span>
+        <span style="font-weight: bold">}</span>,
+        <span style="color: #008000; text-decoration-color: #008000">&#x27;typechecks&#x27;</span>: <span style="font-weight: bold">{</span>
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;setup&#x27;</span>: <span style="font-weight: bold">[</span>
+                <span style="font-weight: bold">{</span>
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;command&#x27;</span>: <span style="font-weight: bold">[</span>
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;C:\\Users\\KalpeshM2\\OneDrive - </span>
+<span style="color: #008000; text-decoration-color: #008000">CitiusTech\\Documents\\cookiecutter-data-science\\.tox\\unit_tests\\Scripts\\python.EXE&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;-m&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;pip&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;freeze&#x27;</span>
+                    <span style="font-weight: bold">]</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;output&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;alembic==1.4.1\nastroid==2.8.6\natomicwrites==1.4.0\nattrs==21.2.0\nbackports.entry-points-selectable==1.1.1\ncert</span>
+<span style="color: #008000; text-decoration-color: #008000">ifi==2021.10.8\ncharset-normalizer==2.0.8\nclick==8.0.3\ncloudpickle==2.0.0\ncolorama==0.4.4\ncycler==0.11.0\ndatabricks-cli==0.16.2\ndataclasses</span>
+<span style="color: #008000; text-decoration-color: #008000">==0.8\ndistlib==0.3.3\ndocker==5.0.3\nentrypoints==0.3\nfilelock==3.4.0\nflake8==4.0.1\nflake8-junit-report==2.1.0\nFlask==2.0.2\ngitdb==4.0.9\nG</span>
+<span style="color: #008000; text-decoration-color: #008000">itPython==3.1.18\ngreenlet==1.1.2\nidna==3.3\nimportlib-metadata==4.2.0\nimportlib-resources==5.4.0\niniconfig==1.1.1\nisort==5.10.1\nitsdangerou</span>
+<span style="color: #008000; text-decoration-color: #008000">s==2.0.1\nJinja2==3.0.3\njoblib==1.1.0\nkeras==2.6.0\nkiwisolver==1.3.1\nlazy-object-proxy==1.6.0\nMako==1.1.6\nMarkupSafe==2.0.1\nmatplotlib==3.</span>
+<span style="color: #008000; text-decoration-color: #008000">3.4\nmccabe==0.6.1\nmlflow==1.21.0\nmypy==0.910\nmypy-extensions==0.4.3\nnumpy==1.19.5\npackaging==21.3\npandas==1.1.5\npathlib==1.0.1\nPillow==8</span>
+<span style="color: #008000; text-decoration-color: #008000">.4.0\nplatformdirs==2.4.0\npluggy==1.0.0\nprometheus-client==0.12.0\nprometheus-flask-exporter==0.18.6\nprotobuf==3.19.1\npy==1.11.0\npycodestyle</span>
+<span style="color: #008000; text-decoration-color: #008000">==2.8.0\npydantic==1.8.2\npyflakes==2.4.0\npylint==2.11.1\npyparsing==3.0.6\npytest==6.2.5\npython-dateutil==2.8.2\npython-editor==1.0.4\npytz==2</span>
+<span style="color: #008000; text-decoration-color: #008000">021.3\npywin32==227\nPyYAML==6.0\nquerystring-parser==1.2.4\nrequests==2.26.0\nscikit-learn==0.21.2\nscipy==1.3.3\nsix==1.16.0\nsmmap==5.0.0\nSQL</span>
+<span style="color: #008000; text-decoration-color: #008000">Alchemy==1.4.27\nsqlparse==0.4.2\nstrictyaml==1.5.0\ntabulate==0.8.9\ntoml==0.10.2\ntox==3.24.4\ntyped-ast==1.4.3\ntyping_extensions==4.0.0\nurll</span>
+<span style="color: #008000; text-decoration-color: #008000">ib3==1.26.7\nvirtualenv==20.10.0\nwaitress==2.0.0\nwebsocket-client==1.2.1\nWerkzeug==2.0.2\nwrapt==1.13.3\nzipp==3.6.0\n&#x27;</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;retcode&#x27;</span>: <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">0</span>
+                <span style="font-weight: bold">}</span>
+            <span style="font-weight: bold">]</span>,
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;python&#x27;</span>: <span style="font-weight: bold">{</span>
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;executable&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;C:\\Users\\KalpeshM2\\OneDrive - </span>
+<span style="color: #008000; text-decoration-color: #008000">CitiusTech\\Documents\\cookiecutter-data-science\\.tox\\unit_tests\\Scripts\\python.EXE&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;implementation&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;CPython&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;version_info&#x27;</span>: <span style="font-weight: bold">[</span><span style="color: #008080; text-decoration-color: #008080; font-weight: bold">3</span>, <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">6</span>, <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">9</span>, <span style="color: #008000; text-decoration-color: #008000">&#x27;final&#x27;</span>, <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">0</span><span style="font-weight: bold">]</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;version&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;3.6.9 |Anaconda, Inc.| (default, Jul 30 2019, 14:00:49) [MSC v.1915 64 bit (AMD64)]&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;is_64&#x27;</span>: <span style="color: #00ff00; text-decoration-color: #00ff00; font-style: italic">True</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;sysplatform&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;win32&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;os_sep&#x27;</span>: &#x27;\\&#x27;,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;extra_version_info&#x27;</span>: <span style="color: #800080; text-decoration-color: #800080; font-style: italic">None</span>
+            <span style="font-weight: bold">}</span>,
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;installed_packages&#x27;</span>: <span style="font-weight: bold">[</span>
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;alembic==1.4.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;astroid==2.8.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;atomicwrites==1.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;attrs==21.2.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;backports.entry-points-selectable==1.1.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;certifi==2021.10.8&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;charset-normalizer==2.0.8&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;click==8.0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;cloudpickle==2.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;colorama==0.4.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;cycler==0.11.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;databricks-cli==0.16.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;dataclasses==0.8&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;distlib==0.3.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;docker==5.0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;entrypoints==0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;filelock==3.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;flake8==4.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;flake8-junit-report==2.1.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Flask==2.0.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;gitdb==4.0.9&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;GitPython==3.1.18&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;greenlet==1.1.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;idna==3.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;importlib-metadata==4.2.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;importlib-resources==5.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;iniconfig==1.1.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;isort==5.10.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;itsdangerous==2.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Jinja2==3.0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;joblib==1.1.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;keras==2.6.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;kiwisolver==1.3.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;lazy-object-proxy==1.6.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Mako==1.1.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;MarkupSafe==2.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;matplotlib==3.3.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mccabe==0.6.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mlflow==1.21.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mypy==0.910&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mypy-extensions==0.4.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;numpy==1.19.5&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;packaging==21.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pandas==1.1.5&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pathlib==1.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Pillow==8.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;platformdirs==2.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pluggy==1.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;prometheus-client==0.12.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;prometheus-flask-exporter==0.18.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;protobuf==3.19.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;py==1.11.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pycodestyle==2.8.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pydantic==1.8.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pyflakes==2.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pylint==2.11.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pyparsing==3.0.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pytest==6.2.5&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;python-dateutil==2.8.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;python-editor==1.0.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pytz==2021.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pywin32==227&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;PyYAML==6.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;querystring-parser==1.2.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;requests==2.26.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;scikit-learn==0.21.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;scipy==1.3.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;six==1.16.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;smmap==5.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;SQLAlchemy==1.4.27&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;sqlparse==0.4.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;strictyaml==1.5.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;tabulate==0.8.9&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;toml==0.10.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;tox==3.24.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;typed-ast==1.4.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;typing_extensions==4.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;urllib3==1.26.7&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;virtualenv==20.10.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;waitress==2.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;websocket-client==1.2.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Werkzeug==2.0.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;wrapt==1.13.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;zipp==3.6.0&#x27;</span>
+            <span style="font-weight: bold">]</span>,
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;test&#x27;</span>: <span style="font-weight: bold">[</span>
+                <span style="font-weight: bold">{</span>
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;command&#x27;</span>: <span style="font-weight: bold">[</span>
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;C:\\Users\\KalpeshM2\\OneDrive - CitiusTech\\Documents\\cookiecutter-data-science\\.tox\\unit_tests\\Scripts\\mypy.EXE&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;tests&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;--junit-xml=tests/reports/junit-typechecks.xml&#x27;</span>
+                    <span style="font-weight: bold">]</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;output&#x27;</span>: <span style="color: #800080; text-decoration-color: #800080; font-style: italic">None</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;retcode&#x27;</span>: <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">0</span>
+                <span style="font-weight: bold">}</span>
+            <span style="font-weight: bold">]</span>
+        <span style="font-weight: bold">}</span>,
+        <span style="color: #008000; text-decoration-color: #008000">&#x27;stylechecks&#x27;</span>: <span style="font-weight: bold">{}</span>
+    <span style="font-weight: bold">}</span>
+<span style="font-weight: bold">}</span>
+<span style="font-weight: bold">{</span>
+    <span style="color: #008000; text-decoration-color: #008000">&#x27;reportversion&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;1&#x27;</span>,
+    <span style="color: #008000; text-decoration-color: #008000">&#x27;toxversion&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;3.24.4&#x27;</span>,
+    <span style="color: #008000; text-decoration-color: #008000">&#x27;platform&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;win32&#x27;</span>,
+    <span style="color: #008000; text-decoration-color: #008000">&#x27;host&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;IMCLBCP32-MSL2.mumbai1.corp.citiustech.com&#x27;</span>,
+    <span style="color: #008000; text-decoration-color: #008000">&#x27;commands&#x27;</span>: <span style="font-weight: bold">[]</span>,
+    <span style="color: #008000; text-decoration-color: #008000">&#x27;testenvs&#x27;</span>: <span style="font-weight: bold">{</span>
+        <span style="color: #008000; text-decoration-color: #008000">&#x27;unit_tests&#x27;</span>: <span style="font-weight: bold">{</span>
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;setup&#x27;</span>: <span style="font-weight: bold">[</span>
+                <span style="font-weight: bold">{</span>
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;command&#x27;</span>: <span style="font-weight: bold">[</span>
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;C:\\Users\\KalpeshM2\\OneDrive - </span>
+<span style="color: #008000; text-decoration-color: #008000">CitiusTech\\Documents\\cookiecutter-data-science\\.tox\\unit_tests\\Scripts\\python.EXE&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;-m&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;pip&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;freeze&#x27;</span>
+                    <span style="font-weight: bold">]</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;output&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;alembic==1.4.1\nastroid==2.8.6\natomicwrites==1.4.0\nattrs==21.2.0\nbackports.entry-points-selectable==1.1.1\ncert</span>
+<span style="color: #008000; text-decoration-color: #008000">ifi==2021.10.8\ncharset-normalizer==2.0.8\nclick==8.0.3\ncloudpickle==2.0.0\ncolorama==0.4.4\ncycler==0.11.0\ndatabricks-cli==0.16.2\ndataclasses</span>
+<span style="color: #008000; text-decoration-color: #008000">==0.8\ndistlib==0.3.3\ndocker==5.0.3\nentrypoints==0.3\nfilelock==3.4.0\nflake8==4.0.1\nflake8-junit-report==2.1.0\nFlask==2.0.2\ngitdb==4.0.9\nG</span>
+<span style="color: #008000; text-decoration-color: #008000">itPython==3.1.18\ngreenlet==1.1.2\nidna==3.3\nimportlib-metadata==4.2.0\nimportlib-resources==5.4.0\niniconfig==1.1.1\nisort==5.10.1\nitsdangerou</span>
+<span style="color: #008000; text-decoration-color: #008000">s==2.0.1\nJinja2==3.0.3\njoblib==1.1.0\nkeras==2.6.0\nkiwisolver==1.3.1\nlazy-object-proxy==1.6.0\nMako==1.1.6\nMarkupSafe==2.0.1\nmatplotlib==3.</span>
+<span style="color: #008000; text-decoration-color: #008000">3.4\nmccabe==0.6.1\nmlflow==1.21.0\nmypy==0.910\nmypy-extensions==0.4.3\nnumpy==1.19.5\npackaging==21.3\npandas==1.1.5\npathlib==1.0.1\nPillow==8</span>
+<span style="color: #008000; text-decoration-color: #008000">.4.0\nplatformdirs==2.4.0\npluggy==1.0.0\nprometheus-client==0.12.0\nprometheus-flask-exporter==0.18.6\nprotobuf==3.19.1\npy==1.11.0\npycodestyle</span>
+<span style="color: #008000; text-decoration-color: #008000">==2.8.0\npydantic==1.8.2\npyflakes==2.4.0\npylint==2.11.1\npyparsing==3.0.6\npytest==6.2.5\npython-dateutil==2.8.2\npython-editor==1.0.4\npytz==2</span>
+<span style="color: #008000; text-decoration-color: #008000">021.3\npywin32==227\nPyYAML==6.0\nquerystring-parser==1.2.4\nrequests==2.26.0\nscikit-learn==0.21.2\nscipy==1.3.3\nsix==1.16.0\nsmmap==5.0.0\nSQL</span>
+<span style="color: #008000; text-decoration-color: #008000">Alchemy==1.4.27\nsqlparse==0.4.2\nstrictyaml==1.5.0\ntabulate==0.8.9\ntoml==0.10.2\ntox==3.24.4\ntyped-ast==1.4.3\ntyping_extensions==4.0.0\nurll</span>
+<span style="color: #008000; text-decoration-color: #008000">ib3==1.26.7\nvirtualenv==20.10.0\nwaitress==2.0.0\nwebsocket-client==1.2.1\nWerkzeug==2.0.2\nwrapt==1.13.3\nzipp==3.6.0\n&#x27;</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;retcode&#x27;</span>: <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">0</span>
+                <span style="font-weight: bold">}</span>
+            <span style="font-weight: bold">]</span>,
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;python&#x27;</span>: <span style="font-weight: bold">{</span>
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;executable&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;C:\\Users\\KalpeshM2\\OneDrive - </span>
+<span style="color: #008000; text-decoration-color: #008000">CitiusTech\\Documents\\cookiecutter-data-science\\.tox\\unit_tests\\Scripts\\python.EXE&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;implementation&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;CPython&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;version_info&#x27;</span>: <span style="font-weight: bold">[</span><span style="color: #008080; text-decoration-color: #008080; font-weight: bold">3</span>, <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">6</span>, <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">9</span>, <span style="color: #008000; text-decoration-color: #008000">&#x27;final&#x27;</span>, <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">0</span><span style="font-weight: bold">]</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;version&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;3.6.9 |Anaconda, Inc.| (default, Jul 30 2019, 14:00:49) [MSC v.1915 64 bit (AMD64)]&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;is_64&#x27;</span>: <span style="color: #00ff00; text-decoration-color: #00ff00; font-style: italic">True</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;sysplatform&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;win32&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;os_sep&#x27;</span>: &#x27;\\&#x27;,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;extra_version_info&#x27;</span>: <span style="color: #800080; text-decoration-color: #800080; font-style: italic">None</span>
+            <span style="font-weight: bold">}</span>,
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;installed_packages&#x27;</span>: <span style="font-weight: bold">[</span>
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;alembic==1.4.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;astroid==2.8.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;atomicwrites==1.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;attrs==21.2.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;backports.entry-points-selectable==1.1.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;certifi==2021.10.8&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;charset-normalizer==2.0.8&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;click==8.0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;cloudpickle==2.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;colorama==0.4.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;cycler==0.11.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;databricks-cli==0.16.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;dataclasses==0.8&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;distlib==0.3.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;docker==5.0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;entrypoints==0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;filelock==3.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;flake8==4.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;flake8-junit-report==2.1.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Flask==2.0.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;gitdb==4.0.9&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;GitPython==3.1.18&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;greenlet==1.1.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;idna==3.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;importlib-metadata==4.2.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;importlib-resources==5.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;iniconfig==1.1.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;isort==5.10.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;itsdangerous==2.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Jinja2==3.0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;joblib==1.1.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;keras==2.6.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;kiwisolver==1.3.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;lazy-object-proxy==1.6.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Mako==1.1.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;MarkupSafe==2.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;matplotlib==3.3.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mccabe==0.6.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mlflow==1.21.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mypy==0.910&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mypy-extensions==0.4.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;numpy==1.19.5&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;packaging==21.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pandas==1.1.5&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pathlib==1.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Pillow==8.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;platformdirs==2.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pluggy==1.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;prometheus-client==0.12.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;prometheus-flask-exporter==0.18.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;protobuf==3.19.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;py==1.11.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pycodestyle==2.8.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pydantic==1.8.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pyflakes==2.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pylint==2.11.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pyparsing==3.0.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pytest==6.2.5&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;python-dateutil==2.8.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;python-editor==1.0.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pytz==2021.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pywin32==227&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;PyYAML==6.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;querystring-parser==1.2.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;requests==2.26.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;scikit-learn==0.21.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;scipy==1.3.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;six==1.16.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;smmap==5.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;SQLAlchemy==1.4.27&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;sqlparse==0.4.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;strictyaml==1.5.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;tabulate==0.8.9&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;toml==0.10.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;tox==3.24.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;typed-ast==1.4.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;typing_extensions==4.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;urllib3==1.26.7&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;virtualenv==20.10.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;waitress==2.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;websocket-client==1.2.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Werkzeug==2.0.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;wrapt==1.13.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;zipp==3.6.0&#x27;</span>
+            <span style="font-weight: bold">]</span>,
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;test&#x27;</span>: <span style="font-weight: bold">[</span>
+                <span style="font-weight: bold">{</span>
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;command&#x27;</span>: <span style="font-weight: bold">[</span>
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;C:\\Users\\KalpeshM2\\OneDrive - </span>
+<span style="color: #008000; text-decoration-color: #008000">CitiusTech\\Documents\\cookiecutter-data-science\\.tox\\unit_tests\\Scripts\\pytest.EXE&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;-s&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;-vv&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;tests&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;--junit-xml=tests/reports/junit-unit_tests.xml&#x27;</span>
+                    <span style="font-weight: bold">]</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;output&#x27;</span>: <span style="color: #800080; text-decoration-color: #800080; font-style: italic">None</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;retcode&#x27;</span>: <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">0</span>
+                <span style="font-weight: bold">}</span>
+            <span style="font-weight: bold">]</span>
+        <span style="font-weight: bold">}</span>,
+        <span style="color: #008000; text-decoration-color: #008000">&#x27;typechecks&#x27;</span>: <span style="font-weight: bold">{</span>
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;setup&#x27;</span>: <span style="font-weight: bold">[</span>
+                <span style="font-weight: bold">{</span>
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;command&#x27;</span>: <span style="font-weight: bold">[</span>
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;C:\\Users\\KalpeshM2\\OneDrive - </span>
+<span style="color: #008000; text-decoration-color: #008000">CitiusTech\\Documents\\cookiecutter-data-science\\.tox\\unit_tests\\Scripts\\python.EXE&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;-m&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;pip&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;freeze&#x27;</span>
+                    <span style="font-weight: bold">]</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;output&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;alembic==1.4.1\nastroid==2.8.6\natomicwrites==1.4.0\nattrs==21.2.0\nbackports.entry-points-selectable==1.1.1\ncert</span>
+<span style="color: #008000; text-decoration-color: #008000">ifi==2021.10.8\ncharset-normalizer==2.0.8\nclick==8.0.3\ncloudpickle==2.0.0\ncolorama==0.4.4\ncycler==0.11.0\ndatabricks-cli==0.16.2\ndataclasses</span>
+<span style="color: #008000; text-decoration-color: #008000">==0.8\ndistlib==0.3.3\ndocker==5.0.3\nentrypoints==0.3\nfilelock==3.4.0\nflake8==4.0.1\nflake8-junit-report==2.1.0\nFlask==2.0.2\ngitdb==4.0.9\nG</span>
+<span style="color: #008000; text-decoration-color: #008000">itPython==3.1.18\ngreenlet==1.1.2\nidna==3.3\nimportlib-metadata==4.2.0\nimportlib-resources==5.4.0\niniconfig==1.1.1\nisort==5.10.1\nitsdangerou</span>
+<span style="color: #008000; text-decoration-color: #008000">s==2.0.1\nJinja2==3.0.3\njoblib==1.1.0\nkeras==2.6.0\nkiwisolver==1.3.1\nlazy-object-proxy==1.6.0\nMako==1.1.6\nMarkupSafe==2.0.1\nmatplotlib==3.</span>
+<span style="color: #008000; text-decoration-color: #008000">3.4\nmccabe==0.6.1\nmlflow==1.21.0\nmypy==0.910\nmypy-extensions==0.4.3\nnumpy==1.19.5\npackaging==21.3\npandas==1.1.5\npathlib==1.0.1\nPillow==8</span>
+<span style="color: #008000; text-decoration-color: #008000">.4.0\nplatformdirs==2.4.0\npluggy==1.0.0\nprometheus-client==0.12.0\nprometheus-flask-exporter==0.18.6\nprotobuf==3.19.1\npy==1.11.0\npycodestyle</span>
+<span style="color: #008000; text-decoration-color: #008000">==2.8.0\npydantic==1.8.2\npyflakes==2.4.0\npylint==2.11.1\npyparsing==3.0.6\npytest==6.2.5\npython-dateutil==2.8.2\npython-editor==1.0.4\npytz==2</span>
+<span style="color: #008000; text-decoration-color: #008000">021.3\npywin32==227\nPyYAML==6.0\nquerystring-parser==1.2.4\nrequests==2.26.0\nscikit-learn==0.21.2\nscipy==1.3.3\nsix==1.16.0\nsmmap==5.0.0\nSQL</span>
+<span style="color: #008000; text-decoration-color: #008000">Alchemy==1.4.27\nsqlparse==0.4.2\nstrictyaml==1.5.0\ntabulate==0.8.9\ntoml==0.10.2\ntox==3.24.4\ntyped-ast==1.4.3\ntyping_extensions==4.0.0\nurll</span>
+<span style="color: #008000; text-decoration-color: #008000">ib3==1.26.7\nvirtualenv==20.10.0\nwaitress==2.0.0\nwebsocket-client==1.2.1\nWerkzeug==2.0.2\nwrapt==1.13.3\nzipp==3.6.0\n&#x27;</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;retcode&#x27;</span>: <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">0</span>
+                <span style="font-weight: bold">}</span>
+            <span style="font-weight: bold">]</span>,
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;python&#x27;</span>: <span style="font-weight: bold">{</span>
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;executable&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;C:\\Users\\KalpeshM2\\OneDrive - </span>
+<span style="color: #008000; text-decoration-color: #008000">CitiusTech\\Documents\\cookiecutter-data-science\\.tox\\unit_tests\\Scripts\\python.EXE&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;implementation&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;CPython&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;version_info&#x27;</span>: <span style="font-weight: bold">[</span><span style="color: #008080; text-decoration-color: #008080; font-weight: bold">3</span>, <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">6</span>, <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">9</span>, <span style="color: #008000; text-decoration-color: #008000">&#x27;final&#x27;</span>, <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">0</span><span style="font-weight: bold">]</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;version&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;3.6.9 |Anaconda, Inc.| (default, Jul 30 2019, 14:00:49) [MSC v.1915 64 bit (AMD64)]&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;is_64&#x27;</span>: <span style="color: #00ff00; text-decoration-color: #00ff00; font-style: italic">True</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;sysplatform&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;win32&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;os_sep&#x27;</span>: &#x27;\\&#x27;,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;extra_version_info&#x27;</span>: <span style="color: #800080; text-decoration-color: #800080; font-style: italic">None</span>
+            <span style="font-weight: bold">}</span>,
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;installed_packages&#x27;</span>: <span style="font-weight: bold">[</span>
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;alembic==1.4.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;astroid==2.8.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;atomicwrites==1.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;attrs==21.2.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;backports.entry-points-selectable==1.1.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;certifi==2021.10.8&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;charset-normalizer==2.0.8&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;click==8.0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;cloudpickle==2.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;colorama==0.4.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;cycler==0.11.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;databricks-cli==0.16.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;dataclasses==0.8&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;distlib==0.3.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;docker==5.0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;entrypoints==0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;filelock==3.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;flake8==4.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;flake8-junit-report==2.1.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Flask==2.0.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;gitdb==4.0.9&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;GitPython==3.1.18&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;greenlet==1.1.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;idna==3.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;importlib-metadata==4.2.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;importlib-resources==5.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;iniconfig==1.1.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;isort==5.10.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;itsdangerous==2.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Jinja2==3.0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;joblib==1.1.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;keras==2.6.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;kiwisolver==1.3.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;lazy-object-proxy==1.6.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Mako==1.1.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;MarkupSafe==2.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;matplotlib==3.3.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mccabe==0.6.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mlflow==1.21.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mypy==0.910&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mypy-extensions==0.4.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;numpy==1.19.5&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;packaging==21.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pandas==1.1.5&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pathlib==1.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Pillow==8.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;platformdirs==2.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pluggy==1.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;prometheus-client==0.12.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;prometheus-flask-exporter==0.18.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;protobuf==3.19.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;py==1.11.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pycodestyle==2.8.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pydantic==1.8.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pyflakes==2.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pylint==2.11.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pyparsing==3.0.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pytest==6.2.5&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;python-dateutil==2.8.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;python-editor==1.0.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pytz==2021.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pywin32==227&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;PyYAML==6.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;querystring-parser==1.2.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;requests==2.26.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;scikit-learn==0.21.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;scipy==1.3.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;six==1.16.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;smmap==5.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;SQLAlchemy==1.4.27&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;sqlparse==0.4.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;strictyaml==1.5.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;tabulate==0.8.9&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;toml==0.10.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;tox==3.24.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;typed-ast==1.4.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;typing_extensions==4.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;urllib3==1.26.7&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;virtualenv==20.10.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;waitress==2.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;websocket-client==1.2.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Werkzeug==2.0.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;wrapt==1.13.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;zipp==3.6.0&#x27;</span>
+            <span style="font-weight: bold">]</span>,
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;test&#x27;</span>: <span style="font-weight: bold">[</span>
+                <span style="font-weight: bold">{</span>
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;command&#x27;</span>: <span style="font-weight: bold">[</span>
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;C:\\Users\\KalpeshM2\\OneDrive - CitiusTech\\Documents\\cookiecutter-data-science\\.tox\\unit_tests\\Scripts\\mypy.EXE&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;tests&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;--junit-xml=tests/reports/junit-typechecks.xml&#x27;</span>
+                    <span style="font-weight: bold">]</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;output&#x27;</span>: <span style="color: #800080; text-decoration-color: #800080; font-style: italic">None</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;retcode&#x27;</span>: <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">0</span>
+                <span style="font-weight: bold">}</span>
+            <span style="font-weight: bold">]</span>
+        <span style="font-weight: bold">}</span>,
+        <span style="color: #008000; text-decoration-color: #008000">&#x27;stylechecks&#x27;</span>: <span style="font-weight: bold">{</span>
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;setup&#x27;</span>: <span style="font-weight: bold">[</span>
+                <span style="font-weight: bold">{</span>
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;command&#x27;</span>: <span style="font-weight: bold">[</span>
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;C:\\Users\\KalpeshM2\\OneDrive - </span>
+<span style="color: #008000; text-decoration-color: #008000">CitiusTech\\Documents\\cookiecutter-data-science\\.tox\\unit_tests\\Scripts\\python.EXE&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;-m&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;pip&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;freeze&#x27;</span>
+                    <span style="font-weight: bold">]</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;output&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;alembic==1.4.1\nastroid==2.8.6\natomicwrites==1.4.0\nattrs==21.2.0\nbackports.entry-points-selectable==1.1.1\ncert</span>
+<span style="color: #008000; text-decoration-color: #008000">ifi==2021.10.8\ncharset-normalizer==2.0.8\nclick==8.0.3\ncloudpickle==2.0.0\ncolorama==0.4.4\ncycler==0.11.0\ndatabricks-cli==0.16.2\ndataclasses</span>
+<span style="color: #008000; text-decoration-color: #008000">==0.8\ndistlib==0.3.3\ndocker==5.0.3\nentrypoints==0.3\nfilelock==3.4.0\nflake8==4.0.1\nflake8-junit-report==2.1.0\nFlask==2.0.2\ngitdb==4.0.9\nG</span>
+<span style="color: #008000; text-decoration-color: #008000">itPython==3.1.18\ngreenlet==1.1.2\nidna==3.3\nimportlib-metadata==4.2.0\nimportlib-resources==5.4.0\niniconfig==1.1.1\nisort==5.10.1\nitsdangerou</span>
+<span style="color: #008000; text-decoration-color: #008000">s==2.0.1\nJinja2==3.0.3\njoblib==1.1.0\nkeras==2.6.0\nkiwisolver==1.3.1\nlazy-object-proxy==1.6.0\nMako==1.1.6\nMarkupSafe==2.0.1\nmatplotlib==3.</span>
+<span style="color: #008000; text-decoration-color: #008000">3.4\nmccabe==0.6.1\nmlflow==1.21.0\nmypy==0.910\nmypy-extensions==0.4.3\nnumpy==1.19.5\npackaging==21.3\npandas==1.1.5\npathlib==1.0.1\nPillow==8</span>
+<span style="color: #008000; text-decoration-color: #008000">.4.0\nplatformdirs==2.4.0\npluggy==1.0.0\nprometheus-client==0.12.0\nprometheus-flask-exporter==0.18.6\nprotobuf==3.19.1\npy==1.11.0\npycodestyle</span>
+<span style="color: #008000; text-decoration-color: #008000">==2.8.0\npydantic==1.8.2\npyflakes==2.4.0\npylint==2.11.1\npyparsing==3.0.6\npytest==6.2.5\npython-dateutil==2.8.2\npython-editor==1.0.4\npytz==2</span>
+<span style="color: #008000; text-decoration-color: #008000">021.3\npywin32==227\nPyYAML==6.0\nquerystring-parser==1.2.4\nrequests==2.26.0\nscikit-learn==0.21.2\nscipy==1.3.3\nsix==1.16.0\nsmmap==5.0.0\nSQL</span>
+<span style="color: #008000; text-decoration-color: #008000">Alchemy==1.4.27\nsqlparse==0.4.2\nstrictyaml==1.5.0\ntabulate==0.8.9\ntoml==0.10.2\ntox==3.24.4\ntyped-ast==1.4.3\ntyping_extensions==4.0.0\nurll</span>
+<span style="color: #008000; text-decoration-color: #008000">ib3==1.26.7\nvirtualenv==20.10.0\nwaitress==2.0.0\nwebsocket-client==1.2.1\nWerkzeug==2.0.2\nwrapt==1.13.3\nzipp==3.6.0\n&#x27;</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;retcode&#x27;</span>: <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">0</span>
+                <span style="font-weight: bold">}</span>
+            <span style="font-weight: bold">]</span>,
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;python&#x27;</span>: <span style="font-weight: bold">{</span>
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;executable&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;C:\\Users\\KalpeshM2\\OneDrive - </span>
+<span style="color: #008000; text-decoration-color: #008000">CitiusTech\\Documents\\cookiecutter-data-science\\.tox\\unit_tests\\Scripts\\python.EXE&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;implementation&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;CPython&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;version_info&#x27;</span>: <span style="font-weight: bold">[</span><span style="color: #008080; text-decoration-color: #008080; font-weight: bold">3</span>, <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">6</span>, <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">9</span>, <span style="color: #008000; text-decoration-color: #008000">&#x27;final&#x27;</span>, <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">0</span><span style="font-weight: bold">]</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;version&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;3.6.9 |Anaconda, Inc.| (default, Jul 30 2019, 14:00:49) [MSC v.1915 64 bit (AMD64)]&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;is_64&#x27;</span>: <span style="color: #00ff00; text-decoration-color: #00ff00; font-style: italic">True</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;sysplatform&#x27;</span>: <span style="color: #008000; text-decoration-color: #008000">&#x27;win32&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;os_sep&#x27;</span>: &#x27;\\&#x27;,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;extra_version_info&#x27;</span>: <span style="color: #800080; text-decoration-color: #800080; font-style: italic">None</span>
+            <span style="font-weight: bold">}</span>,
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;installed_packages&#x27;</span>: <span style="font-weight: bold">[</span>
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;alembic==1.4.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;astroid==2.8.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;atomicwrites==1.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;attrs==21.2.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;backports.entry-points-selectable==1.1.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;certifi==2021.10.8&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;charset-normalizer==2.0.8&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;click==8.0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;cloudpickle==2.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;colorama==0.4.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;cycler==0.11.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;databricks-cli==0.16.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;dataclasses==0.8&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;distlib==0.3.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;docker==5.0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;entrypoints==0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;filelock==3.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;flake8==4.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;flake8-junit-report==2.1.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Flask==2.0.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;gitdb==4.0.9&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;GitPython==3.1.18&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;greenlet==1.1.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;idna==3.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;importlib-metadata==4.2.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;importlib-resources==5.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;iniconfig==1.1.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;isort==5.10.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;itsdangerous==2.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Jinja2==3.0.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;joblib==1.1.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;keras==2.6.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;kiwisolver==1.3.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;lazy-object-proxy==1.6.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Mako==1.1.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;MarkupSafe==2.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;matplotlib==3.3.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mccabe==0.6.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mlflow==1.21.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mypy==0.910&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;mypy-extensions==0.4.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;numpy==1.19.5&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;packaging==21.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pandas==1.1.5&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pathlib==1.0.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Pillow==8.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;platformdirs==2.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pluggy==1.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;prometheus-client==0.12.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;prometheus-flask-exporter==0.18.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;protobuf==3.19.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;py==1.11.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pycodestyle==2.8.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pydantic==1.8.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pyflakes==2.4.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pylint==2.11.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pyparsing==3.0.6&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pytest==6.2.5&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;python-dateutil==2.8.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;python-editor==1.0.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pytz==2021.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;pywin32==227&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;PyYAML==6.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;querystring-parser==1.2.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;requests==2.26.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;scikit-learn==0.21.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;scipy==1.3.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;six==1.16.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;smmap==5.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;SQLAlchemy==1.4.27&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;sqlparse==0.4.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;strictyaml==1.5.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;tabulate==0.8.9&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;toml==0.10.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;tox==3.24.4&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;typed-ast==1.4.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;typing_extensions==4.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;urllib3==1.26.7&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;virtualenv==20.10.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;waitress==2.0.0&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;websocket-client==1.2.1&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;Werkzeug==2.0.2&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;wrapt==1.13.3&#x27;</span>,
+                <span style="color: #008000; text-decoration-color: #008000">&#x27;zipp==3.6.0&#x27;</span>
+            <span style="font-weight: bold">]</span>,
+            <span style="color: #008000; text-decoration-color: #008000">&#x27;test&#x27;</span>: <span style="font-weight: bold">[</span>
+                <span style="font-weight: bold">{</span>
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;command&#x27;</span>: <span style="font-weight: bold">[</span>
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;C:\\Users\\KalpeshM2\\OneDrive - </span>
+<span style="color: #008000; text-decoration-color: #008000">CitiusTech\\Documents\\cookiecutter-data-science\\.tox\\unit_tests\\Scripts\\flake8.EXE&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;tests&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;--output-file=tests/reports/flake8.txt&#x27;</span>
+                    <span style="font-weight: bold">]</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;output&#x27;</span>: <span style="color: #800080; text-decoration-color: #800080; font-style: italic">None</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;retcode&#x27;</span>: <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">0</span>
+                <span style="font-weight: bold">}</span>,
+                <span style="font-weight: bold">{</span>
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;command&#x27;</span>: <span style="font-weight: bold">[</span>
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;C:\\Users\\KalpeshM2\\OneDrive - </span>
+<span style="color: #008000; text-decoration-color: #008000">CitiusTech\\Documents\\cookiecutter-data-science\\.tox\\unit_tests\\Scripts\\flake8_junit.EXE&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;tests/reports/flake8.txt&#x27;</span>,
+                        <span style="color: #008000; text-decoration-color: #008000">&#x27;tests/reports/junit-stylechecks.xml&#x27;</span>
+                    <span style="font-weight: bold">]</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;output&#x27;</span>: <span style="color: #800080; text-decoration-color: #800080; font-style: italic">None</span>,
+                    <span style="color: #008000; text-decoration-color: #008000">&#x27;retcode&#x27;</span>: <span style="color: #008080; text-decoration-color: #008080; font-weight: bold">0</span>
+                <span style="font-weight: bold">}</span>
+            <span style="font-weight: bold">]</span>
+        <span style="font-weight: bold">}</span>
+    <span style="font-weight: bold">}</span>
+<span style="font-weight: bold">}</span>
+<span style="color: #800000; text-decoration-color: #800000; font-weight: bold">Recording stopped</span>
+</pre>
+    </code>
+</body>
+</html>

@@ -1,3 +1,3 @@
 
-def func (x):
+def func(x):
     return x + 5
