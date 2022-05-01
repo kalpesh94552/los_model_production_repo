@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/695ea08002f0457e8f0d2d96e089fa6e/artifacts
+end_time: 1637066492276
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 695ea08002f0457e8f0d2d96e089fa6e
+run_uuid: 695ea08002f0457e8f0d2d96e089fa6e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1637066464916
+status: 3
+tags: []
+user_id: KalpeshM2

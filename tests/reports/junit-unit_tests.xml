@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="0" hostname="IMCLBCP32-MSL2" name="pytest" skipped="0" tests="2" time="3.077" timestamp="2021-11-29T15:41:10.918391"><testcase classname="tests.test_accuracy" name="test_accuracy" time="0.393" /><testcase classname="tests.test_first" name="test_method1" time="0.001" /></testsuite></testsuites>

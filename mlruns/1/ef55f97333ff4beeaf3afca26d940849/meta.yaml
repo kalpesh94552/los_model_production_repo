@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/ef55f97333ff4beeaf3afca26d940849/artifacts
+end_time: 1636948163694
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: deleted
+name: ''
+run_id: ef55f97333ff4beeaf3afca26d940849
+run_uuid: ef55f97333ff4beeaf3afca26d940849
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1636948156702
+status: 3
+tags: []
+user_id: KalpeshM2
