@@ -33,11 +33,11 @@ if __name__ == "__main__":
     api = DkubeApi(URL=dkubeURL, token=authToken)
 
     # Read features
-    feature_df = api.read_featureset(name = fs)  # output: data
+    feature_df = api.read_featureset(name = km-los-feature)  # output: data
 
     ########--- Train ---########
-    # feature_df = feature_df.drop(['case_id', 'patientid', 'Hospital_region_code', 'Ward_Facility_Code'], axis =1)
-    los_input = feature_df.drop('Stay', axis =0)
+    feature_df = feature_df.drop(['case_id', 'patientid', 'Hospital_region_code', 'Ward_Facility_Code'], axis =1)
+    los_input = feature_df.drop('Stay', axis =1)
     los_target = feature_df['Stay']
 
     # Splitting train data
