@@ -36,7 +36,7 @@ if __name__ == "__main__":
     feature_df = api.read_featureset(name = fs)  # output: data
 
     ########--- Train ---########
-    feature_df = feature_df.drop(['case_id', 'patientid', 'Hospital_region_code', 'Ward_Facility_Code'], axis =1)
+    feature_df = feature_df.drop(['case_id', 'patientid', 'Hospital_region_code', 'Ward_Facility_Code'])
     los_input = feature_df.drop('Stay', axis =1)
     los_target = feature_df['Stay']
 
