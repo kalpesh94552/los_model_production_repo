@@ -6,6 +6,11 @@ from sklearn.model_selection import train_test_split
 import requests, os
 import argparse
 
+import pyarrow as pa
+import pyarrow.parquet as pq
+from sklearn.metrics import accuracy_score
+from sklearn import linear_model
+from sklearn.preprocessing import StandardScaler
 import mlflow
 from sklearn import metrics
 from dkube.sdk import *
@@ -33,7 +38,7 @@ if __name__ == "__main__":
     api = DkubeApi(URL=dkubeURL, token=authToken)
 
     # Read features
-    feature_df = api.read_featureset(name = km-los-feature)  # output: data
+    feature_df = api.read_featureset(name = fs)  # output: data
 
     ########--- Train ---########
     feature_df = feature_df.drop(['case_id', 'patientid', 'Hospital_region_code', 'Ward_Facility_Code'], axis =1)
@@ -47,6 +52,7 @@ if __name__ == "__main__":
     classifier_nb = GaussianNB()
     model_nb = classifier_nb.fit(x_train, y_train)
 
+    y_pred_train = model_nb.predict(x_train)    
     y_pred = model_nb.predict(x_test)
     # y_pred_train = linReg.predict(x_train)    # Predict on train data.
     # y_pred_train[y_pred_train < 0] = y_pred_train.mean()
