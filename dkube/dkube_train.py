@@ -55,30 +55,30 @@ if __name__ == "__main__":
     # y_pred[y_pred < 0] = y_pred.mean()
     
     #######--- Calculating metrics ---############
-    # acc_score_nb = accuracy_score(y_pred, y_test)
-    # print("Acurracy:", acc_score_nb*100)
+    acc_score_nb = accuracy_score(y_pred, y_test)
+    print("Accuracy:", acc_score_nb)
     # mlflow.log_metric("accuracyNB", acc_score_nb*100)
     # mlflow.sklearn.log_model(model_nb, "model_nb")
     # mlflow.log_param("param", "param")
 
-    mae = metrics.mean_absolute_error(y_test, y_pred)
-    mape = metrics.mean_absolute_percentage_error(y_test, y_pred)
-    mse = metrics.mean_squared_error(y_test, y_pred)
-    rmse = metrics.mean_squared_error(y_test, y_pred, squared=False)
-    r2 = metrics.r2_score(y_test, y_pred)
+    # mae = metrics.mean_absolute_error(y_test, y_pred)
+    # mape = metrics.mean_absolute_percentage_error(y_test, y_pred)
+    # mse = metrics.mean_squared_error(y_test, y_pred)
+    # rmse = metrics.mean_squared_error(y_test, y_pred, squared=False)
+    # r2 = metrics.r2_score(y_test, y_pred)
 
-    print('Mean Absolute Error:', mae)  
-    print('Mean Squared Error:', mse)  
-    print('Root Mean Squared Error:', rmse)
-    print('R2 score:', r2)
-    print("MAPE", mape)
+    # print('Mean Absolute Error:', mae)  
+    # print('Mean Squared Error:', mse)  
+    # print('Root Mean Squared Error:', rmse)
+    # print('R2 score:', r2)
+    # print("MAPE", mape)
 
     ########--- Logging metrics into Dkube via mlflow ---############
-    mlflow.log_metric("MAE", mae)
-    mlflow.log_metric("MAPE", mape)
-    mlflow.log_metric("MSE", mse)
-    mlflow.log_metric("RMSE", rmse)
-    mlflow.log_metric("R2", r2)
+    mlflow.log_metric("Accuracy", acc_score_nb)
+    # mlflow.log_metric("MAPE", mape)
+    # mlflow.log_metric("MSE", mse)
+    # mlflow.log_metric("RMSE", rmse)
+    # mlflow.log_metric("R2", r2)
 
     # Exporting model
     filename = os.path.join(out_path, "model.joblib")
