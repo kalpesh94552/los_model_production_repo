@@ -37,7 +37,7 @@ if __name__ == "__main__":
 
     ########--- Train ---########
     # feature_df = feature_df.drop(['case_id', 'patientid', 'Hospital_region_code', 'Ward_Facility_Code'], axis =1)
-    los_input = feature_df.drop('Stay', axis =1)
+    los_input = feature_df.drop('Stay', axis =0)
     los_target = feature_df['Stay']
 
     # Splitting train data
