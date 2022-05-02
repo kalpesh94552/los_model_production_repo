@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import pathlib
 import argparse
-import pandas
+import os
 from sklearn.preprocessing import LabelEncoder
 
 from dkube.sdk import *
