@@ -33,16 +33,12 @@ if __name__ == "__main__":
     feature_df = api.read_featureset(name = fs)  # output: data
 
     ########--- Train ---########
-    insurance_input = feature_df.drop(['charges'],axis=1)
-    insurance_target = feature_df['charges']
-
-    # Splitting train data for Naive Bayes and XGBoost
     feature_df = feature_df.drop(['case_id', 'patientid', 'Hospital_region_code', 'Ward_Facility_Code'], axis =1)
     los_input = feature_df.drop('Stay', axis =1)
     los_target = feature_df['Stay']
-    
-    #stadardize data    
-    x_train, x_test, y_train, y_test = train_test_split(los_input, los_target, test_size =0.20, random_state =100)
+
+    # Splitting train data
+    x_train, x_test, y_train, y_test = train_test_split(los_input, los_target, test_size =0.20, random_state =100) 
 
     #fit linear model to the train set data
     classifier_nb = GaussianNB()
